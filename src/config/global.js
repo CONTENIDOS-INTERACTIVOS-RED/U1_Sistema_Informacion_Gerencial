@@ -166,14 +166,86 @@ export default {
   referencias: [
     {
       referencia:
-        'Ardaraz, M. (2002). Teoría de las tres dimensiones de desarrollo sostenible: . Ecosistemas, 11(2)',
-      link:
-        'https://www.revistaecosistemas.net/index.php/ecosistemas/article/view/614',
+        'López Ortuño, E. (2020). Sistema de información de mercados: (1 ed.). Marcombo. ',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/280238',
     },
     {
       referencia:
-        'Beltrán, D. J. (2002). La estrategia de desarrollo sostenible de la Unión Europea en el contexto global: de Río a Johannesburgo. ICE. Revista de Economía, (800).',
-      link: '',
+        'Lezanski, P. Mattio, A. & Merino, S. (2020). Sistema de información contable I: ( ed.). Editorial Maipue. ',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/147944',
+    },
+    {
+      referencia:
+        'Dueñas Nogueras, J. (2023). Sistemas de información y bases de datos: COMT0110: (1 ed.). IC Editorial. ',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/229144 ',
+    },
+    {
+      referencia:
+        'Izaguirre Castro, A. (2024). Proyectos exitosos de sistemas de información financiera: (1 ed.). Editorial Alfil, S. A. de C. V.  ',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/280570',
+    },
+    {
+      referencia:
+        'Carmona Romera, G. (2021). Sistema Operativo, búsqueda de información: Internet/Intranet y correo electrónico. ADGG0208: (1 ed.). IC Editorial. ',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/222252',
+    },
+    {
+      referencia:
+        'Chicano Tejada, E. (2024). Gestionar el crecimiento y las condiciones ambientales. IFCT0510: (1 ed.). IC Editorial. ',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/274766',
+    },
+    {
+      referencia:
+        'Lazzati, S. C. & Tailhade, M. (2019). Liderazgo gerencial: ( ed.). Ediciones Granica.  ',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/151212',
+    },
+    {
+      referencia:
+        'Molero Suárez, L. M. (Il.). (2024). Casos empresariales desde una mirada académica responsable: investigación enfocada a empresas y sus necesidades gerenciales: (1 ed.). Editorial Politécnico Grancolombiano.  ',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/279918',
+    },
+    {
+      referencia:
+        'Becerra Bizarrón, M. E. Neri Guzmán, J. C. & Domínguez Valdez, B. M. (2020). Gestión empresarial y aprendizaje organizacional: herramientas para el desarrollo de habilidades gerenciales en un contexto de competitividad regional: ( ed.). Plaza y Valdés (México).  ',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/174181',
+    },
+    {
+      referencia:
+        'Macías Joven, M. T. (2020). Guía del gerente financiero: desde el diagnóstico hasta la toma de decisiones: ( ed.). Universidad de La Sabana.  ',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/137823',
+    },
+    {
+      referencia:
+        'Ramírez, M. & Tejada Betancourt, L. (Il.). (2020). Gerencia estratégica: ( ed.). Universidad Abierta para Adultos (UAPA). ',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/175881',
+    },
+    {
+      referencia:
+        'Espinosa Manríquez, N. (2022). Contabilidad financiera y gerencial. Tomo III: Casos y ejercicios: (1 ed.). Editorial Universidad Alberto Hurtado.  ',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/226848',
+    },
+    {
+      referencia:
+        'Espinosa Manríquez, N. (2022). Contabilidad financiera y gerencial. Tomo II: Aplicaciones prácticas y soluciones: (1 ed.). Editorial Universidad Alberto Hurtado.  ',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/226847',
+    },
+    {
+      referencia:
+        'De la Rosa Curiel, E. O., Rodríguez Torres, E. D., & Acero Sánchez, F. (2020). Plan estratégico para fomentar el uso de las TIC en el sector agrícola. Corporación Universitaria Minuto de Dios. ',
+      link:
+        'https://repository.uniminuto.edu/bitstream/10656/12583/5/TE.PRO_DelaRosaEddie-RodriguezErika-AceroFernando_2020.pdf',
+    },
+    {
+      referencia:
+        'Universidad Nacional de Colombia. (2021). Propuesta metodológica para implementar un marco de referencia para la alineación estratégica de los sistemas de información. ',
+      link:
+        'https://repositorio.unal.edu.co/bitstream/handle/unal/80772/75065742.2021.pdf?isAllowed=y&sequence=2',
+    },
+    {
+      referencia:
+        'Universidad Nacional de Colombia. (2020). Diagnóstico sobre el nivel de madurez de alineación estratégica de las tecnologías de la información en las organizaciones. ',
+      link:
+        'https://repositorio.unal.edu.co/bitstream/handle/unal/78595/1121819190.2020.pdf?isAllowed=y&sequence=1',
     },
   ],
   glosario: [
