@@ -235,7 +235,7 @@
             h2.mb-5(data-aos="flip-up") Ejemplo empresarial. Transformación digital de la cadena de valor en "Café Aurora S.A.S."
             p.mb-4(data-aos="fade-right") Se invita a leer el documento Ejemplo empresarial. Transformación digital de la cadena de valor en "Café Aurora S.A.S.", donde se aborda la modernización integral de una empresa cafetera mediante soluciones tecnológicas aplicadas a toda su cadena de valor
     
-            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
+            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_2.pdf')" target="_blank")(data-aos="flip-up")
               .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
@@ -546,7 +546,7 @@
             h2.mb-5(data-aos="flip-up") Aplicaciones Estratégicas de los Sistemas de Información
             p.mb-4(data-aos="fade-right") Se invita a leer el documento Aplicaciones Estratégicas de los Sistemas de Información, donde se aborda el papel esencial de los sistemas de información (SI) como herramientas clave para la gestión, innovación y toma de decisiones en las organizaciones 
     
-            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
+            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_3.pdf')" target="_blank")(data-aos="flip-up")
               .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
@@ -555,6 +555,14 @@
           .col-lg-5
             figure(data-aos="zoom-in")
               img(src='@/assets/curso/tema2/37.png', alt='')
+
+
+    
+    .bg-full-width.border-top.actividad.bg-color-actividad
+      .p-4.p-md-5
+        #Actividad                
+          <Actividad :cuestionario="cuestionario"/>
+
 
     .bg-full-width.border-top.color-primario
       .p-4.p-md-5
@@ -636,8 +644,188 @@
 </template>
 
 <script>
+import Actividad from '@/components/actividad/Actividad.vue'
 export default {
   name: 'Tema2',
+  components: {
+    Actividad,
+  },
+  data() {
+    return {
+      cuestionario: {
+        tema: 'Herramientas colaborativas para la construcción de paz',
+        titulo: 'Ponte a prueba',
+        introduccion:
+          'Demuestra lo que aprendiste en esta unidad y pon a prueba tus conocimientos.',
+        barajarPreguntas: true,
+        preguntas: [
+          {
+            id: 1,
+            texto:
+              '¿Cuál de las siguientes opciones describe mejor un sistema ERP?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto:
+                  'Herramienta para gestionar las redes sociales de la empresa',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto:
+                  'Sistema que integra y automatiza los procesos internos de una organización',
+                esCorrecta: true,
+              },
+              {
+                id: 'c',
+                texto:
+                  'Plataforma de videoconferencias para equipos de trabajo',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto:
+                  'Programa que traduce contenido comercial a diferentes idiomas',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+          {
+            id: 2,
+            texto: '¿Qué es Business Intelligence (BI)?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Proceso de diseño de productos atractivos',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto:
+                  'Conjunto de tecnologías para transformar datos en información útil para la toma de decisiones',
+                esCorrecta: true,
+              },
+              {
+                id: 'c',
+                texto: 'Plataforma de facturación electrónica',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto: 'Aplicación para reclutamiento de personal',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+          {
+            id: 3,
+            texto: '¿Cuál es una característica del análisis predictivo?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto:
+                  'Utiliza datos históricos para anticipar comportamientos futuros',
+                esCorrecta: true,
+              },
+              {
+                id: 'b',
+                texto: 'Se basa exclusivamente en encuestas manuales',
+                esCorrecta: false,
+              },
+              {
+                id: 'c',
+                texto: 'Solo se aplica a empresas financieras',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto: 'Es útil únicamente para recursos humanos',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+          {
+            id: 4,
+            texto:
+              '¿Cuál de los siguientes es un ejemplo de herramienta de visualización de datos?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Excel sin macros',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto: 'Tableau',
+                esCorrecta: true,
+              },
+              {
+                id: 'c',
+                texto: 'Outlook',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto: 'WhatsApp Business',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+          {
+            id: 5,
+            texto: '¿Qué permite un sistema CRM en una organización?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto:
+                  'Mejorar la relación con los clientes mediante seguimiento y personalización',
+                esCorrecta: true,
+              },
+              {
+                id: 'b',
+                texto: 'Automatizar procesos contables',
+                esCorrecta: false,
+              },
+              {
+                id: 'c',
+                texto: 'Administrar inventarios físicos',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto: 'Controlar la seguridad informática interna ',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+        ],
+        mensaje_final_aprobado:
+          '¡Felicidades! Has superado la prueba con éxito.',
+        mensaje_final_reprobado:
+          'Te recomendamos repasar nuevamente la unidad para reforzar los conceptos clave antes de volver a intentarlo.',
+      },
+    }
+  },
   mounted() {
     this.$nextTick(() => {
       this.$aosRefresh()
@@ -646,4 +834,7 @@ export default {
 }
 </script>
 
-<style lang="sass"></style>
+<style lang="sass">
+.bg-color-actividad
+  background-color: #EBF1F5
+</style>
